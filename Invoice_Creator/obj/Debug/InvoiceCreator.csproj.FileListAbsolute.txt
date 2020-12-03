@@ -1,0 +1,10 @@
+E:\Git\InvoiceCreator\Invoice_Creator\bin\Debug\Invoice_Creator.exe.config
+E:\Git\InvoiceCreator\Invoice_Creator\bin\Debug\Invoice_Creator.exe
+E:\Git\InvoiceCreator\Invoice_Creator\bin\Debug\Invoice_Creator.pdb
+E:\Git\InvoiceCreator\Invoice_Creator\obj\Debug\InvoiceCreator.csprojAssemblyReference.cache
+E:\Git\InvoiceCreator\Invoice_Creator\obj\Debug\Invoice_Creator.InvoiceCreator.resources
+E:\Git\InvoiceCreator\Invoice_Creator\obj\Debug\Invoice_Creator.Properties.Resources.resources
+E:\Git\InvoiceCreator\Invoice_Creator\obj\Debug\InvoiceCreator.csproj.GenerateResource.cache
+E:\Git\InvoiceCreator\Invoice_Creator\obj\Debug\InvoiceCreator.csproj.CoreCompileInputs.cache
+E:\Git\InvoiceCreator\Invoice_Creator\obj\Debug\Invoice_Creator.exe
+E:\Git\InvoiceCreator\Invoice_Creator\obj\Debug\Invoice_Creator.pdb

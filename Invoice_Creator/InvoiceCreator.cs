@@ -45,6 +45,7 @@ namespace Invoice_Creator
             FileStream texFile = File.Create(Directory.GetCurrentDirectory() + "/output.tex");
             texFile.Write(UnicodeEncoding.Unicode.GetBytes(latexText),
         0, UnicodeEncoding.Unicode.GetByteCount(latexText));
+            texFile.Close();
 
             // Console.Out(insertData)
         }

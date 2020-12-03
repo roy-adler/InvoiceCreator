@@ -70,7 +70,7 @@ namespace Invoice_Creator
             this.flowLayoutPanel1.Location = new System.Drawing.Point(156, 81);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(220, 225);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(386, 225);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // tbOrganization
@@ -79,7 +79,7 @@ namespace Invoice_Creator
             this.tbOrganization.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbOrganization.Name = "tbOrganization";
             this.tbOrganization.Size = new System.Drawing.Size(208, 26);
-            this.tbOrganization.TabIndex = 3;
+            this.tbOrganization.TabIndex = 1;
             // 
             // tbSurname
             // 
@@ -87,7 +87,7 @@ namespace Invoice_Creator
             this.tbSurname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbSurname.Name = "tbSurname";
             this.tbSurname.Size = new System.Drawing.Size(208, 26);
-            this.tbSurname.TabIndex = 4;
+            this.tbSurname.TabIndex = 2;
             // 
             // tbName
             // 
@@ -95,7 +95,7 @@ namespace Invoice_Creator
             this.tbName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(208, 26);
-            this.tbName.TabIndex = 5;
+            this.tbName.TabIndex = 0;
             // 
             // tbStreet
             // 
@@ -103,7 +103,7 @@ namespace Invoice_Creator
             this.tbStreet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbStreet.Name = "tbStreet";
             this.tbStreet.Size = new System.Drawing.Size(208, 26);
-            this.tbStreet.TabIndex = 6;
+            this.tbStreet.TabIndex = 3;
             // 
             // tbZipCode
             // 
@@ -111,7 +111,7 @@ namespace Invoice_Creator
             this.tbZipCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbZipCode.Name = "tbZipCode";
             this.tbZipCode.Size = new System.Drawing.Size(208, 26);
-            this.tbZipCode.TabIndex = 7;
+            this.tbZipCode.TabIndex = 4;
             // 
             // tbState
             // 
@@ -119,7 +119,7 @@ namespace Invoice_Creator
             this.tbState.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbState.Name = "tbState";
             this.tbState.Size = new System.Drawing.Size(208, 26);
-            this.tbState.TabIndex = 8;
+            this.tbState.TabIndex = 5;
             // 
             // flowLayoutPanel2
             // 
@@ -141,7 +141,7 @@ namespace Invoice_Creator
             this.tbOrgOrganization.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbOrgOrganization.Name = "tbOrgOrganization";
             this.tbOrgOrganization.Size = new System.Drawing.Size(208, 26);
-            this.tbOrgOrganization.TabIndex = 3;
+            this.tbOrgOrganization.TabIndex = 0;
             // 
             // tbOrgSurname
             // 
@@ -149,7 +149,7 @@ namespace Invoice_Creator
             this.tbOrgSurname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbOrgSurname.Name = "tbOrgSurname";
             this.tbOrgSurname.Size = new System.Drawing.Size(208, 26);
-            this.tbOrgSurname.TabIndex = 4;
+            this.tbOrgSurname.TabIndex = 2;
             // 
             // tbOrgName
             // 
@@ -157,7 +157,7 @@ namespace Invoice_Creator
             this.tbOrgName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbOrgName.Name = "tbOrgName";
             this.tbOrgName.Size = new System.Drawing.Size(208, 26);
-            this.tbOrgName.TabIndex = 5;
+            this.tbOrgName.TabIndex = 1;
             // 
             // tbOrgStreet
             // 
@@ -165,7 +165,7 @@ namespace Invoice_Creator
             this.tbOrgStreet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbOrgStreet.Name = "tbOrgStreet";
             this.tbOrgStreet.Size = new System.Drawing.Size(208, 26);
-            this.tbOrgStreet.TabIndex = 6;
+            this.tbOrgStreet.TabIndex = 3;
             // 
             // tbOrgZipCode
             // 
@@ -173,7 +173,7 @@ namespace Invoice_Creator
             this.tbOrgZipCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbOrgZipCode.Name = "tbOrgZipCode";
             this.tbOrgZipCode.Size = new System.Drawing.Size(208, 26);
-            this.tbOrgZipCode.TabIndex = 7;
+            this.tbOrgZipCode.TabIndex = 4;
             // 
             // tbOrgState
             // 
@@ -181,7 +181,7 @@ namespace Invoice_Creator
             this.tbOrgState.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbOrgState.Name = "tbOrgState";
             this.tbOrgState.Size = new System.Drawing.Size(208, 26);
-            this.tbOrgState.TabIndex = 8;
+            this.tbOrgState.TabIndex = 5;
             // 
             // btnCreateInvoice
             // 
@@ -189,7 +189,7 @@ namespace Invoice_Creator
             this.btnCreateInvoice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCreateInvoice.Name = "btnCreateInvoice";
             this.btnCreateInvoice.Size = new System.Drawing.Size(168, 35);
-            this.btnCreateInvoice.TabIndex = 10;
+            this.btnCreateInvoice.TabIndex = 0;
             this.btnCreateInvoice.Text = "Create Invoice";
             this.btnCreateInvoice.UseVisualStyleBackColor = true;
             this.btnCreateInvoice.Click += new System.EventHandler(this.btnCreateInvoice_Click);
@@ -201,7 +201,7 @@ namespace Invoice_Creator
             this.comboBoxLatexTemplate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxLatexTemplate.Name = "comboBoxLatexTemplate";
             this.comboBoxLatexTemplate.Size = new System.Drawing.Size(279, 28);
-            this.comboBoxLatexTemplate.TabIndex = 11;
+            this.comboBoxLatexTemplate.TabIndex = 0;
             // 
             // flowLayoutPanel3
             // 
@@ -233,7 +233,7 @@ namespace Invoice_Creator
             this.lblOrganization.Location = new System.Drawing.Point(3, 0);
             this.lblOrganization.Name = "lblOrganization";
             this.lblOrganization.Size = new System.Drawing.Size(99, 20);
-            this.lblOrganization.TabIndex = 9;
+            this.lblOrganization.TabIndex = 0;
             this.lblOrganization.Text = "Organization";
             // 
             // lblName
@@ -242,7 +242,7 @@ namespace Invoice_Creator
             this.lblName.Location = new System.Drawing.Point(3, 20);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(51, 20);
-            this.lblName.TabIndex = 10;
+            this.lblName.TabIndex = 1;
             this.lblName.Text = "Name";
             // 
             // lblSurname
@@ -251,7 +251,7 @@ namespace Invoice_Creator
             this.lblSurname.Location = new System.Drawing.Point(3, 40);
             this.lblSurname.Name = "lblSurname";
             this.lblSurname.Size = new System.Drawing.Size(74, 20);
-            this.lblSurname.TabIndex = 11;
+            this.lblSurname.TabIndex = 2;
             this.lblSurname.Text = "Surname";
             // 
             // label4
@@ -260,7 +260,7 @@ namespace Invoice_Creator
             this.label4.Location = new System.Drawing.Point(3, 60);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 20);
-            this.label4.TabIndex = 12;
+            this.label4.TabIndex = 3;
             this.label4.Text = "Street";
             // 
             // label5
@@ -269,7 +269,7 @@ namespace Invoice_Creator
             this.label5.Location = new System.Drawing.Point(3, 80);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 20);
-            this.label5.TabIndex = 13;
+            this.label5.TabIndex = 4;
             this.label5.Text = "Zip Code";
             // 
             // label6
@@ -278,7 +278,7 @@ namespace Invoice_Creator
             this.label6.Location = new System.Drawing.Point(3, 100);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 20);
-            this.label6.TabIndex = 14;
+            this.label6.TabIndex = 5;
             this.label6.Text = "State";
             // 
             // InvoiceCreator
