@@ -16,5 +16,15 @@ namespace Invoice_Creator
 				{
 						InitializeComponent();
 				}
+
+				private void insertData(string type, string data)
+				{
+
+				}
+
+				private void btnCreateInvoice_Click(object sender, EventArgs e)
+				{
+						string latexTemplate = comboBoxLatexTemplate.SelectedText;
+				}
 		}
 }

@@ -169,6 +169,7 @@ namespace Invoice_Creator
 						this.btnCreateInvoice.TabIndex = 10;
 						this.btnCreateInvoice.Text = "Create Invoice";
 						this.btnCreateInvoice.UseVisualStyleBackColor = true;
+						this.btnCreateInvoice.Click += new System.EventHandler(this.btnCreateInvoice_Click);
 						// 
 						// comboBoxLatexTemplate
 						// 
