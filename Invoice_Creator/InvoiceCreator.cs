@@ -53,8 +53,21 @@ namespace Invoice_Creator
             latexText = latexText.Replace("#" + type + "#", data);
         }
 
+        // TODO: Implement it right
+        private void saveTemplate()
+        {
+            insertData("ORGANIZATION", tbOrganization.Text);
+            insertData("NAME", tbName.Text);
+            insertData("SURNAME", tbSurname.Text);
+            insertData("STREET", tbOrgStreet.Text);
+            insertData("ZIPCODE", tbZipCode.Text);
+            insertData("STATE", tbState.Text);
+        }
+
         private void btnCreateInvoice_Click(object sender, EventArgs e)
         {
+            // saveTemplate();
+
             string latexTemplatePath = latexTemplateFiles[comboBoxLatexTemplate.SelectedIndex];
             latexText = File.ReadAllText(latexTemplatePath);
 
